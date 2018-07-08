@@ -37,8 +37,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/Lb6qwa9' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='https://imgur.com/a/4ptlKjn' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/Lb6qwa9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/4ptlKjn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
