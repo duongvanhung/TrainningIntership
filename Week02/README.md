@@ -27,16 +27,16 @@ The following **bonus** features are implemented:
 * [ ] Replace Filter Settings Activity with a lightweight [modal overlay](https://guides.codepath.com/android/Using-DialogFragment).
 * [x] Improve the user interface and experiment with image assets and/or styling and coloring 
 * [ ] Use the [RecyclerView](http://guides.codepath.com/android/Using-the-RecyclerView) with the StaggeredGridLayoutManager to display improve the grid of image results (see [Picasso guide](https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#adjusting-the-image-size-dynamically) too).
-* [ ] For different news articles that only have text or have text with thumbnails, use [Heterogenous Layouts](https://guides.codepath.com/android/Heterogenous-Layouts-inside-RecyclerView) with RecyclerView.
-* [x] Apply the popular [ButterKnife annotation library](https://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce view boilerplate.
+* [x] For different news articles that only have text or have text with thumbnails, use [Heterogenous Layouts](https://guides.codepath.com/android/Heterogenous-Layouts-inside-RecyclerView) with RecyclerView.
+* [ ] Apply the popular [ButterKnife annotation library](https://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce view boilerplate.
 * [ ] Use Parcelable instead of Serializable using the popular [Parceler library](https://guides.codepath.com/android/Using-Parceler).
 * [x] Replace all icon drawables and other static image assets with [vector drawables](https://guides.codepath.com/android/Drawables#vector-drawables) where appropriate.
 * [ ] Leverage the [data binding support module](https://guides.codepath.com/android/Applying-Data-Binding-for-Views) to bind data into one or more activity layout templates.
 * [x] Replace Picasso with [Glide](https://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en) for more efficient image rendering.
 * [ ] Switch to [using retrolambda expressions](https://guides.codepath.com/android/Lambda-Expressions) to cleanup event handling blocks.
 * [x] Leverage the popular [GSON library](https://guides.codepath.com/android/Using-Android-Async-Http-Client#decoding-with-gson-library) to streamline the parsing of JSON data.
-* [x] Consume the New York Times API using the popular [Retrofit networking library](https://guides.codepath.com/android/Consuming-APIs-with-Retrofit) instead of Android Async HTTP.
-* [x] Replace the embedded WebView with [Chrome Custom Tabs](https://guides.codepath.com/android/Chrome-Custom-Tabs) using a custom action button for sharing.
+* [ ] Consume the New York Times API using the popular [Retrofit networking library](https://guides.codepath.com/android/Consuming-APIs-with-Retrofit) instead of Android Async HTTP.
+* [ ] Replace the embedded WebView with [Chrome Custom Tabs](https://guides.codepath.com/android/Chrome-Custom-Tabs) using a custom action button for sharing.
 
 The following **additional** features are implemented:
 
