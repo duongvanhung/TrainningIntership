@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "sg.howard.twitterclient"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "mode"
+    productFlavors {
+        dev {
+            buildConfigField("String", "TOKEN", '"2346926630-Encn9h69lSkd19XGhNfkEesOt9BwtOaeg7xj5Dc"')
+            buildConfigField("String", "TOKEN_SECRECT", '"JDOjy27WGfS3LlH66l4dMfDGrC4D7gugg1MXYrlWsVK3x"')
+            buildConfigField("String", "CONSUMER_KEY", '"ybU8faweMNURmbrHv4U3Q99i7"')
+            buildConfigField("String", "CONSUMER_SECRET", '"SJvgNY3mcjzHAP7461EUs0aHJe2O6WlAzYKT3s6ZcjGgpWAxmF"')
+        }
+        prod{
+
+        }
+    }
+    signingConfigs {
+        debug {
+            storeFile file('../twitterclient.jks')
+            storePassword "vinova123"
+            keyAlias "twitterclient"
+            keyPassword "vinova123"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.android.support:cardview-v7:28.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
+    implementation 'com.android.support:design:28.0.0-alpha3'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:retrofit-converters:2.4.0'
+
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+
+    implementation 'com.twitter.sdk.android:twitter:3.3.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0-alpha3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha3'
+
+    implementation 'joda-time:joda-time:2.10'
+
+    //ButterKnife
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //SparkButton
+    implementation  'com.github.varunest:sparkbutton:1.0.5'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    //Submit Button
+    implementation 'com.unstoppable:submitbutton:1.1.3'
+
+
+    // Glide library
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+
+    //Rounded ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //Blur
+    implementation 'fr.tvbarthel.blurdialogfragment:lib:2.2.0'
+
+    //SQLite
+    implementation 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+
+    //Parceler
+    implementation 'org.parceler:parceler-api:1.1.11'
+    annotationProcessor 'org.parceler:parceler:1.1.11'
+
+
+
+
+}
+
