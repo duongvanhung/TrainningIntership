@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDelegatesExamples" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-26T10:13:36" hostname="DESKTOP-1VPL4UE" time="0.017">
+  <properties/>
+  <testcase name="testLazy" classname="TestDelegatesExamples" time="0.016"/>
+  <testcase name="initializedOnce" classname="TestDelegatesExamples" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

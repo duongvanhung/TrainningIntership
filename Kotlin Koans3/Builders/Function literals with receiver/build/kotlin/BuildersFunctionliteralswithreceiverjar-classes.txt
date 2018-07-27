@@ -1,0 +1,1 @@
+D:\MOBILE\Ghost\Kotlin Koans3\Builders\Function literals with receiver\build\classes\java\main\TaskKt$task$isEven$1.class;D:\MOBILE\Ghost\Kotlin Koans3\Builders\Function literals with receiver\build\classes\java\main\TaskKt$task$isOdd$1.class;D:\MOBILE\Ghost\Kotlin Koans3\Builders\Function literals with receiver\build\classes\java\main\TaskKt.class

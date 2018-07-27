@@ -1,0 +1,1 @@
+D:\MOBILE\Ghost\Kotlin Koans3\Introduction\Hello, world!\build\classes\java\main\TaskKt.class

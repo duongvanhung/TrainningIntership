@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDefaultAndNamedParams" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-25T07:21:43" hostname="DESKTOP-1VPL4UE" time="0.028">
+  <properties/>
+  <testcase name="testDefaultAndNamedParams" classname="TestDefaultAndNamedParams" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestInRange" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-07-26T04:24:56" hostname="DESKTOP-1VPL4UE" time="0.005">
+  <properties/>
+  <testcase name="testAfter" classname="TestInRange" time="0.005"/>
+  <testcase name="testBefore" classname="TestInRange" time="0.0"/>
+  <testcase name="testInRange" classname="TestInRange" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

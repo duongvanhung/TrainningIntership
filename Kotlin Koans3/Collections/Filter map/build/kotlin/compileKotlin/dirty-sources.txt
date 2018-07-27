@@ -1,0 +1,3 @@
+D:\MOBILE\Ghost\Kotlin Koans3\Collections\Filter map\src\Shop.kt
+D:\MOBILE\Ghost\Kotlin Koans3\Collections\Filter map\src\Task.kt
+D:\MOBILE\Ghost\Kotlin Koans3\Collections\Filter map\src\TestShop.kt
